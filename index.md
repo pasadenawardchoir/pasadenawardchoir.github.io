@@ -1,7 +1,7 @@
 # Pasadena Ward Choir Party
 
 ## Details
-|  |  |
+| /// | ///  |
 |--|--|
 | When | 22 Dec 2019 @4pm |
 | Where | @ the Huff's |
