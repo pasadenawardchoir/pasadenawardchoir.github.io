@@ -9,6 +9,11 @@
 | How to RSVP? | email jaredswan@outlook.com |
 
 
+Markdown | Less | Pretty
+--- | --- | ---
+*Still* | `renders` | **nicely**
+1 | 2 | 3
+
 # Food sign up
 Please email jaredswan@outlook.com to sign up to bring an item below. He will update this site as he hears from folks.
 
