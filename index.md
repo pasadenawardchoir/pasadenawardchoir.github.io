@@ -1,6 +1,7 @@
 # Pasadena Ward Choir Party
 
 ## Details
+|  |  |
 |--|--|
 | When | 22 Dec 2019 @4pm |
 | Where | @ the Huff's |
@@ -11,12 +12,12 @@
 # Food sign up
 Please email jaredswan@outlook.com to sign up to bring an item below. He will update this site as he hears from folks.
 
-## Salad
+## Salads
 
-## Side
+## Sides
 
 ## Drinks 
 
-# Dessert
+## Desserts
 
 
