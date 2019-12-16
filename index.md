@@ -14,6 +14,11 @@ Markdown | Less | Pretty
 *Still* | `renders` | **nicely**
 1 | 2 | 3
 
+| | | |
+|-|-|-|
+|__Bold Key__| Value1 |
+| Normal Key | Value2 |
+
 # Food sign up
 Please email jaredswan@outlook.com to sign up to bring an item below. He will update this site as he hears from folks.
 
