@@ -1,8 +1,8 @@
 # Pasadena Ward Choir Party
 
 ## Details
-| /// | ///  |
-|--|--|
+| | | 
+| --- | --- |  
 | When | 22 Dec 2019 @4pm |
 | Where | @ the Huff's |
 | Current Number of RSVP'd attendees | 13 Adults, 10 Children |
