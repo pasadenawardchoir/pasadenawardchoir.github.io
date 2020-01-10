@@ -3,10 +3,16 @@
     <ul class="menu-list">
         {% for item in site.data.navigation %}
         <li>
-            <a  {% if item.newtab %} target="_blank" rel="noopener noreferrer" {% endif %} href="{{ item.link }}" class="{% if page.url == item.link %}has-text-weight-bold{% endif %}">
-              <span class="icon"><i class="fa {{ item.icon }}"></i></span> {{ item.name }}
+            <a  {% if item.newtab %} target="_blank" rel="noopener noreferrer" {% endif %} href="{{ item.link }}" class="{% if page.url == item.link %}is-active{% endif %}">
+                <span class="icon"><i class="fa {{ item.icon }}"></i></span> {{ item.name }}
             </a>
         </li>
         {% endfor %}
+        <li>
+            <a class="has-background-warning">
+                <span class="icon"><i class="fa fa-edit"></i></span>
+                Take the choir survey and give your feedback!
+            </a>
+        </li>
     </ul>
 </aside>

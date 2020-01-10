@@ -6,7 +6,7 @@
   icon: fa-calendar
 - name: "Parts & Sheet Music"
   link: https://1drv.ms/f/s!Atn8--z3rWG2mJteqHBjtKsvv44NMg
-  icon: fa-link
+  icon: fa-external-link-alt
   newtab: true
 - name: "Join the choir email list"
   link: mailto:pasadenawardchoir@gmail.com?subject=Sign me up&body=Can you add my email to the ward choir mailing list?
