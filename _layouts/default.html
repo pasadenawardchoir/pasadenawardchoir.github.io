@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    {% include head-matter.html %}
+  </head>
+  <body>
+    
+    {% include titlebar.html %}
+
+    <section class="main-content columns is-fullheight">
+  
+      {% include sidebar.html %}
+      <section>
+        {{ content }}
+      </section>
+      
+      
+    </section>
+  </body>
+</html>

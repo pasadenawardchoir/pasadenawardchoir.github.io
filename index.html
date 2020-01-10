@@ -1,96 +1,26 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Pasadena Ward Choir</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
-    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
-  </head>
-  <body>
-  <section class="section">
-        <nav class="level">
-                <p class="level-item has-text-centered title">
-                  Pasadena Ward Choir Party Planning
-                </p>
-        </nav>
-    <hr>
-    <div class="columns">
-        <div class="column">
-                <div class="container">
-                        <h2 class="is-size-2">
-                            Details
-                        </h2>
-                        <table class="table">
-                            <tbody>
-                                <tr>
-                                    <th> When </td>
-                                    <td> 22 Dec 2019 @4pm</td>
-                                </tr>
-                                <tr>
-                                    <th> Where </td>
-                                    <td> The Huff's Home </td>
-                                </tr>
-                                <tr>
-                                    <th> RSVPs thus far </th>
-                                    <td> 10 households: 20 adults, 10 Children </td>
-                                </tr>
-                                <tr>
-                                    <th>How to RSVP</th>
-                                    <td>Email <a href="mailto:jaredswan@outlook.com">jaredswan@outlook.com</a></td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-        </div>
-        <div class="column">
-                <div class="container">
-                        <h1 class="is-size-2">
-                            Food Sign-up
-                        </h1>
-                        <p>
-                            Please email <a href="mailto:jaredswan@outlook.com">jaredswan@outlook.com</a> to sign up to bring an item below. He will update this site as he hears from folks.
-                        </p>
-                        <h2 class="is-size-3">
-                            Salads
-                        </h2>
-                            <div class="content">
-                                <ol type="1">
-                                    <li>Andersons</li>
-                                    <li>Swan</li>
-                                    <li>--Your Name Here--</li>
-                                </ol>
-                            </div>
-                        <h2 class="is-size-3">
-                            Sides
-                        </h2>
-                        <div class="content">
-                                <ol type="1">
-                                    <li>Smiths</li>
-                                    <li>Foys</li>
-                                    <li>Riggs</li>
-                                    <li>--Your Name Here--</li>
-                                </ol>
-                            </div>
-                        <h2 class="is-size-3">
-                            Desserts
-                        </h2>
-                        <div class="content">
-                                <ol type="1">
-                                    <li>Coffin</li>
-                                    <li>Bevans</li>
-                                    <li>Akers</li>
-                                    <li>Weiland</li>
-                                    <li>--Your Name Here--</li>
-                                </ol>
-                            </div>
-                    </div>
-        </div>
-        </div>
-            
+---
+layout: default
+title: Announcements
+---
 
-                
-    
-  </section>
-  </body>
-</html>
+<section class="section">
+    <div class="content container">
+        {% assign sorted = site.announcements | sort:"date" %}
+        {% for item in sorted limit:5 %}
+            <h1 class="title">
+                {{ item.date | date: "%e %b %Y" }} - {{ item.title }}
+            </h1>
+
+            {{ item.content | markdownify }}
+            
+        {% endfor %}
+    </div>    
+</section>
+
+<!-- <section class="section">
+    <div class="container">
+        {% for item in site.announcements %}
+            {{ item.content }}            
+        {% endfor %}
+    </div>    
+</section> -->
