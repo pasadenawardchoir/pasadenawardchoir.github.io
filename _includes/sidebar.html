@@ -1,0 +1,12 @@
+<aside class="column is-2 is-narrow-mobile is-fullheight section is-hidden-mobile">
+    <!-- <p class="menu-label is-hidden-touch">Navigation</p> -->
+    <ul class="menu-list">
+        {% for item in site.data.navigation %}
+        <li>
+            <a  {% if item.newtab %} target="_blank" rel="noopener noreferrer" {% endif %} href="{{ item.link }}" class="{% if page.url == item.link %}has-text-weight-bold{% endif %}">
+              <span class="icon"><i class="fa {{ item.icon }}"></i></span> {{ item.name }}
+            </a>
+        </li>
+        {% endfor %}
+    </ul>
+</aside>
