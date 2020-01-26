@@ -11,7 +11,7 @@ This week we'll be singing *Redeemer of Israel* and inviting congregants to join
 
 Be sure to click the  "+Google Calendar" icon in the lower section of the choir calendar to have all of our practices and events where you would see them the most.
 
-![](assets\img\calendar-signup.png)
+![](assets/img/calendar-signup.png)
 
 ### *Sing Praise To Him* Recordings Posted
 
