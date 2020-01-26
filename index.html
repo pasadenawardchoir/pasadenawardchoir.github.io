@@ -5,7 +5,7 @@ title: Announcements
 
 <section class="section">
     <div class="content container">
-        {% assign sorted = site.announcements | sort:"date" %}
+        {% assign sorted = site.announcements | sort:"date" | reverse %}
         {% for item in sorted limit:5 %}
             <h1 class="title">
                 {{ item.date | date: "%e %b %Y" }} - {{ item.title }}
